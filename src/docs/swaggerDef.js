@@ -8,12 +8,12 @@ const swaggerDef = {
     version,
     license: {
       name: 'MIT',
-      url: 'https://github.com/hagopj13/node-express-boilerplate/blob/master/LICENSE',
+      url: 'https://github.com/fabio-anzola/node-express-boilerplate/blob/master/LICENSE',
     },
   },
   servers: [
     {
-      url: `http://localhost:${config.port}/v1`,
+      url: `${config.base}/v1`,
     },
   ],
 };
